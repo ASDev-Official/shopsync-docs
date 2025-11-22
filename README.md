@@ -4,27 +4,16 @@ Welcome to the official documentation repository for **ShopSync**!
 
 ## About This Repository
 
-This repository contains the comprehensive documentation for ShopSync, a modern e-commerce synchronization platform. Here you'll find guides, API references, tutorials, and other resources to help you understand and use ShopSync effectively.
-
-## What is ShopSync?
-
-ShopSync is designed to streamline and synchronize your e-commerce operations across multiple platforms, making it easier to manage inventory, orders, and customer data.
-
-## Documentation Structure
-
-The documentation in this repository is organized to help you quickly find the information you need:
-
-- **Getting Started** - Quick start guides and initial setup instructions
-- **User Guides** - Detailed guides for using ShopSync features
-- **API Reference** - Complete API documentation for developers
-- **Tutorials** - Step-by-step tutorials for common tasks
-- **Configuration** - Configuration options and best practices
+This repository contains the comprehensive documentation for ShopSync.
 
 ## Contributing
 
 We welcome contributions to improve our documentation! Whether you're fixing a typo, clarifying an explanation, or adding new content, your help is appreciated.
 
 Please read our [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute to this documentation.
+
+## ShopSync Repository
+https://github.com/ASDev-Official/shopsync
 
 ## License
 

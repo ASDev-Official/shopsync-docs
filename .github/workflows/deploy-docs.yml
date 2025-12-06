@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: Build Documentation
@@ -54,6 +57,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
+          persist-credentials: true
       
       - name: Download build artifacts
         uses: actions/download-artifact@v4
@@ -91,5 +95,5 @@ jobs:
           git add .
           git commit -m "Deploy docs from commit ${{ github.sha }}" || echo "No changes to commit"
 
-          # Force push to docs-build branch
-          git push origin docs-build --force
+          # Force push to docs-build branch using GITHUB_TOKEN
+          git push https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git docs-build --force

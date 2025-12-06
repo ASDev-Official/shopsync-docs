@@ -112,7 +112,7 @@ ShopSync uses intelligent conflict resolution:
 
 If automatic resolution isn't possible:
 
-1. You'll see a conflict notification
+1. The list shows a conflict status
 2. View both versions
 3. Choose which to keep
 4. Or merge manually
@@ -129,7 +129,7 @@ If automatic resolution isn't possible:
 
 1. Oldest cached data is cleared first
 2. Active lists are prioritized
-3. Notification shown when approaching limit
+3. Storage status shows when you're near the limit
 
 ### Clearing Offline Data
 
@@ -264,7 +264,7 @@ ShopSync uses intelligent caching:
 4. Download remote changes
 5. Resolve any conflicts
 6. Update local cache
-7. Notify user of completion
+7. Mark sync as complete in the app
 
 ## Next Steps
 

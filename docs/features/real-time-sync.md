@@ -40,7 +40,6 @@ graph LR
 
 - ❌ App settings
 - ❌ Theme preferences
-- ❌ Notification settings
 - ❌ Local cache
 
 ## Sync Behavior
@@ -135,7 +134,7 @@ ShopSync handles most conflicts automatically:
 
 Rarely, you may need to resolve manually:
 
-1. Conflict notification appears
+1. Conflict status appears in the list
 2. View both versions
 3. Choose which to keep
 4. Or merge changes manually

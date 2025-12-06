@@ -154,22 +154,6 @@ To stop sharing immediately:
 2. Or delete the list
 3. Generate new share link if needed
 
-## Notification Settings
-
-Control notifications for shared lists:
-
-1. Go to **Settings** → **Notifications**
-2. Configure:
-   - New items added
-   - Items checked off
-   - Items deleted
-   - New collaborators joined
-3. Set frequency:
-   - Real-time
-   - Hourly digest
-   - Daily digest
-   - Off
-
 ## Multi-Device Sync
 
 Shared lists sync across:
@@ -241,7 +225,7 @@ Share gift ideas:
 
 - [Real-time Sync](../features/real-time-sync.md)
 - [Offline Mode](offline-mode.md)
-- [Settings & Notifications](settings.md)
+- [Settings](settings.md)
 
 ---
 

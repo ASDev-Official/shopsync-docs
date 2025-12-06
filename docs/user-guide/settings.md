@@ -45,35 +45,6 @@ Easier on eyes, saves battery on OLED screens
 - **Card Style** - Flat or Elevated
 - **Animations** - Enable/disable transitions
 
-## Notifications
-
-### Push Notifications
-
-Control when you receive notifications:
-
-| Event            | Description                 | Default |
-| ---------------- | --------------------------- | ------- |
-| Item Added       | Someone adds to shared list | ✅ On   |
-| Item Checked     | Someone checks off an item  | ❌ Off  |
-| Item Deleted     | Someone removes an item     | ✅ On   |
-| List Shared      | You're invited to a list    | ✅ On   |
-| New Collaborator | Someone joins your list     | ✅ On   |
-
-### Notification Grouping
-
-- **Group by List** - Notifications grouped per list
-- **Group by Type** - Grouped by event type
-- **No Grouping** - Individual notifications
-
-### Quiet Hours
-
-Set times when notifications are silenced:
-
-1. Enable **Quiet Hours**
-2. Set start time (e.g., 10:00 PM)
-3. Set end time (e.g., 7:00 AM)
-4. Choose days of week
-
 ## Lists & Items
 
 ### Default Settings
@@ -181,10 +152,10 @@ Sync settings for smartwatch:
 - Enable WearOS companion
 - Sync frequency
 - Display options
-- Completion notifications
+- Completion notifications (not available)
 
 !!! info "WearOS Capabilities"
-WearOS app allows viewing lists and completing/uncompleting items only. All other operations require the phone or web app.
+WearOS app allows viewing lists and completing/uncompleting items only. All other operations require the phone or web app. Notifications are not supported.
 
 ### Voice Assistants
 
@@ -267,7 +238,7 @@ Clearing cache and factory reset remove local data. Ensure you're online and syn
 
 ## Best Practices
 
-!!! tip "Recommended Settings" - **Enable Auto-Sync** - Keep data current - **Turn on Notifications** - Stay informed - **Use System Theme** - Matches your device - **Enable Smart Suggestions** - Faster item entry - **Set Quiet Hours** - Peaceful nights - **Regular Backups** - Protect your data
+!!! tip "Recommended Settings" - **Enable Auto-Sync** - Keep data current - **Use System Theme** - Matches your device - **Enable Smart Suggestions** - Faster item entry - **Regular Backups** - Protect your data
 
 ## Troubleshooting
 

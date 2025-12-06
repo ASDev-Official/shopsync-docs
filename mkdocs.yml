@@ -161,7 +161,6 @@ nav:
     - Recycle Bin: features/recycle-bin.md
     - Home Widgets: features/home-widgets.md
     - WearOS Support: features/wearos.md
-    - Location Integration: features/location.md
     - Export & Share: features/export.md
   - Developer Guide:
     - developer-guide/index.md

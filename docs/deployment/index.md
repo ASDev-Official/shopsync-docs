@@ -197,7 +197,7 @@ If issues arise post-deployment:
 1. **Immediate**: Halt rollout in Play Console
 2. **Quick Fix**: Deploy hotfix if simple
 3. **Rollback**: Revert to previous version
-4. **Communicate**: Notify users of issue
+4. **Communicate**: Post status update and remediation ETA
 
 ## Resources
 

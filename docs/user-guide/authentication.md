@@ -44,7 +44,6 @@ After your first sign-in:
 
 1. **Welcome Screen** - Brief introduction to ShopSync
 2. **Permissions** (Android only)
-   - Notifications - Get updates when lists change
    - Storage - Save list exports
 3. **Profile Setup** - Your name and photo are automatically imported from Google
 

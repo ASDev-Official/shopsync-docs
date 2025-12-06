@@ -133,20 +133,6 @@ ShopSync is optimized for battery life, but you can:
     - Update to latest version
     - Restart device
 
-??? question "Notifications not working"
-**Android:**
-
-    1. Settings → Apps → ShopSync → Notifications
-    2. Ensure all channels are enabled
-    3. Check "Do Not Disturb" settings
-    4. Verify ShopSync notification settings
-
-    **Web:**
-
-    1. Allow notifications in browser
-    2. Check browser notification settings
-    3. Ensure ShopSync has permission
-
 ## Features
 
 ??? question "How do Smart Suggestions work?"
@@ -310,7 +296,7 @@ When reporting an issue, please include:
 
 ## Best Practices
 
-!!! tip "Use ShopSync Effectively" - **Organize with groups** - Keep lists organized - **Use categories** - Shop more efficiently - **Share wisely** - Only with active users - **Sync regularly** - Keep data up to date - **Enable notifications** - Stay informed - **Backup important lists** - Export periodically
+!!! tip "Use ShopSync Effectively" - **Organize with groups** - Keep lists organized - **Use categories** - Shop more efficiently - **Share wisely** - Only with active users - **Sync regularly** - Keep data up to date - **Backup important lists** - Export periodically
 
 ---
 

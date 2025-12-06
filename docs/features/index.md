@@ -46,14 +46,6 @@ ShopSync is packed with powerful features to make shared shopping effortless. Ex
 
   [:octicons-arrow-right-24: Smartwatch Guide](wearos.md)
 
-- :material-map-marker:{ .lg .middle } **Location Integration**
-
-  ***
-
-  Add locations to lists for store-specific shopping.
-
-  [:octicons-arrow-right-24: Location Features](location.md)
-
 - :material-share-variant:{ .lg .middle } **Export & Share**
 
   ***

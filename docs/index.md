@@ -51,7 +51,6 @@
 - **:material-watch: WearOS Support** - View lists and complete items from your smartwatch
 - **:material-robot: Smart Suggestions** - AI-powered item suggestions using TensorFlow Lite
 - **:material-widgets: Home Widgets** - Quick access to your lists from your home screen
-- **:material-google-maps: Location Integration** - Add locations to your shopping lists
 - **:material-share-variant: Export & Share** - Share lists via various platforms
 
 ## Quick Start

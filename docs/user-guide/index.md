@@ -70,7 +70,7 @@ This guide will teach you how to:
 
   ***
 
-  Customize themes, notifications, and preferences
+  Customize themes and preferences
 
   [:octicons-arrow-right-24: Settings Guide](settings.md)
 

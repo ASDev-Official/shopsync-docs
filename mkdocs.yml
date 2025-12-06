@@ -56,8 +56,8 @@ theme:
     - content.tabs.link
     - content.tooltips
 
-repo_url: https://github.com/ASDev-Official/ShopSync
-repo_name: ASDev-Official/ShopSync
+repo_url: https://github.com/ASDev-Official/shopsync-docs
+repo_name: ASDev-Official/shopsync-docs
 edit_uri: ""
 
 plugins:

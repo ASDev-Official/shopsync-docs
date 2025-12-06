@@ -1,0 +1,84 @@
+name: Deploy Documentation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build Documentation
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install mkdocs-material mkdocs-git-revision-date-localized-plugin mkdocs-minify-plugin
+      
+      - name: Build documentation
+        run: mkdocs build --clean
+      
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: docs-build
+          path: site/
+          retention-days: 1
+
+  deploy:
+    name: Deploy to Branch
+    needs: build
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: docs-build
+          path: site/
+      
+      - name: Deploy to docs-build branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Create or switch to docs-build branch
+          git checkout --orphan docs-build || git checkout docs-build
+          
+          # Remove all files except site directory
+          git rm -rf . 2>/dev/null || true
+          
+          # Move built docs to root
+          mv site/* .
+          rm -rf site
+          
+          # Add all files and commit
+          git add .
+          git commit -m "Deploy docs from commit ${{ github.sha }}" || echo "No changes to commit"
+          
+          # Force push to docs-build branch
+          git push origin docs-build --force

@@ -2,6 +2,8 @@
 
 Welcome to the official documentation repository for **ShopSync**!
 
+**Live docs:** https://docs.shopsync.aadish.dev
+
 ## About This Repository
 
 This repository contains the comprehensive documentation for ShopSync.
@@ -13,6 +15,7 @@ We welcome contributions to improve our documentation! Whether you're fixing a t
 Please read our [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute to this documentation.
 
 ## ShopSync Repository
+
 https://github.com/ASDev-Official/shopsync
 
 ## License
@@ -22,6 +25,7 @@ This documentation is licensed under the MIT License - see the [LICENSE](LICENSE
 ## Support
 
 If you have questions or need help:
+
 - Open an issue in this repository for documentation-related questions
 - Visit the main ShopSync repository for application-specific issues
 - Check our documentation for answers to common questions

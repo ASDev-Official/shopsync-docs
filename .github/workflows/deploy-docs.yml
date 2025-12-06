@@ -67,6 +67,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+          # Preserve artifact outside repo before cleaning
+          mkdir -p /tmp/docs-build
+          cp -R artifacts/docs-build/. /tmp/docs-build/
+
           # Create or switch to docs-build branch
           if git ls-remote --exit-code --heads origin docs-build >/dev/null 2>&1; then
             git fetch origin docs-build:docs-build
@@ -79,9 +83,9 @@ jobs:
           git rm -rf . >/dev/null 2>&1 || true
           find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
 
-          # Copy built docs into root
-          cp -R artifacts/docs-build/. .
-          rm -rf artifacts
+          # Copy built docs back into repo root
+          cp -R /tmp/docs-build/. .
+          rm -rf /tmp/docs-build artifacts
 
           # Add all files and commit
           git add .

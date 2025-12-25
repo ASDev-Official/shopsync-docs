@@ -168,3 +168,5 @@ ShopSync is open source software licensed under the [MIT License](about/license.
 [View on GitHub](https://github.com/ASDev-Official/ShopSync){ .md-button }
 
 </div>
+
+<script src="https://asdev-shopsync.statuspage.io/embed/script.js"></script>
